@@ -1,0 +1,155 @@
+/* reset*/
+*{
+   /* espacio exterior*/
+   margin: 0px; ;
+
+
+/* espacio interior*/ 
+padding: 0px;
+}
+
+body{
+    background-color:mediumseagreen;   
+     padding: 100px;
+     color: aquamarine;    
+     border: black;
+}
+
+
+/* aplicar estilos por etiqueta */ 
+h1{
+    color: black;
+    text-align:center;
+    
+}
+h2 {
+    color: aqua;
+    text-align: center;
+    
+}
+h4{
+    text-align:start
+
+}
+
+
+/* aplicar estilos por class*/
+.pink{
+    color: rgb(15, 13, 14);
+}
+
+/* aplicar estilos por ID */
+#brown{
+    color: brown;
+}
+/*estilos de html ejemplos*/
+
+/* estilos de header*/
+header{
+    background-color: #f8f6f6;
+    color:rosybrown; 
+    text-align: center;
+    align-items:normal;
+    box-shadow:20px 40px 50px black;
+
+}
+header img{
+    width: 50px 
+}
+ 
+header div nav ul{ 
+    list-style:circle;
+    display: flex;
+    text-align:center;
+    gap: 50px;
+}
+    
+/* ruta especifidad*/
+
+header img{
+    width: 100%;
+    display: block;
+    justify-content: center 50px;
+}
+
+header nav ul li{
+    list-style:none;
+    color: rgb(186, 72, 91);
+    font-family:Arial, Helvetica, sans-serif;
+    font: weight 50px;
+    align-items:center;
+    flex-direction:row;
+    text-align: center;
+}
+
+header{
+    text-align: center;
+}
+
+/*estilos de main*/
+ 
+main{
+    margin: 10px 50px;
+}
+main{
+    text-align: center;
+}
+main{
+    text-decoration:none;
+}
+main{
+   text-transform:uppercase; 
+}
+
+main{
+    margin-top: 20px;
+}
+
+main p.h1.h3{
+    font-size: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-style: normal;
+
+}
+main{
+    text-align: center;
+}
+main h1 h3 p{ 
+     font-size: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-style: normal;
+
+} 
+
+
+/* estilos de footer*/
+
+footer{
+    list-style-type: georgian;
+    text-align: center;
+    font: size 13px;
+}
+
+footer{
+    font-style: normal;
+}
+/*estilos de secion*/
+section{
+   text-align: center; 
+  
+}
+section div img{
+    width: 30%;
+    text-align: center;
+    justify-content: center;
+}
+/*absolutas*/
+
+/*relativas*/
+
+
+
