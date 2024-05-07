@@ -1,172 +1,145 @@
-/* reset*/
-*{
-   /* espacio exterior*/
-   margin: 0px; ;
-
-
-/* espacio interior*/ 
-padding: 0px;
+body {
+  background-color: mediumseagreen;
+  padding: 100px;
+  color: aquamarine;
+  border: black;
 }
 
-body{
-    background-color:mediumseagreen;   
-     padding: 100px;
-     color: aquamarine;    
-     border: black;
+h1 {
+  color: black;
+  text-align: center;
 }
 
-
-/* aplicar estilos header*/
-h1{
-    color: black;
-    text-align:center;
-    
-}
 h2 {
-    color: aqua;
-    text-align: center;
-    
-}
-h4{
-    text-align:start
-
+  color: aqua;
+  text-align: center;
 }
 
-
-.pink{
-    color: rgb(15, 13, 14);
+h4 {
+  text-align: start;
 }
 
-#brown{
-    color: brown;
+.pink {
+  color: rgb(15, 13, 14);
 }
 
-
-header{
-    background-color: #f8f6f6;
-    color:rosybrown; 
-    text-align: center;
-    align-items:normal;
-    box-shadow:20px 40px 50px black;
-
-}
-header img{
-    width: 50px 
-}
- 
-header div nav ul{ 
-    list-style:circle;
-    display: flex;
-    text-align:center;
-    gap: 50px;
-}
-    
-
-
-header img{
-    width: 100%;
-    display: block;
-    justify-content: center 50px;
+#brown {
+  color: brown;
 }
 
-header nav ul li{
-    list-style:none;
-    color: rgb(186, 72, 91);
-    font-family:Arial, Helvetica, sans-serif;
-    font: weight 50px;
-    align-items:center;
-    flex-direction:row;
-    text-align: center;
+header {
+  background-color: #f8f6f6;
+  color: rosybrown;
+  text-align: center;
+  align-items: normal;
+  box-shadow: 20px 40px 50px black;
 }
 
-header{
-    text-align: center;
+header img {
+  width: 50px;
 }
 
-/*estilos de main*/
- 
-main{
-    margin: 10px 50px;
-}
-main{
-    text-align: center;
-}
-main{
-    text-decoration:none;
-}
-main{
-   text-transform:uppercase; 
+header div nav ul {
+  list-style: circle;
+  display: flex;
+  text-align: center;
+  gap: 50px;
 }
 
-main{
-    margin-top: 20px;
+header img {
+  width: 100%;
+  display: block;
+  justify-content: center 50px;
 }
 
-main p.h1.h3{
-    font-size: 50px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    font-style: normal;
-
+header nav ul li {
+  list-style: none;
+  color: rgb(186, 72, 91);
+  font-family: Arial, Helvetica, sans-serif;
+  font: weight 50px;
+  align-items: center;
+  flex-direction: row;
+  text-align: center;
 }
-main{
-    text-align: center;
+
+header {
+  text-align: center;
 }
-main h1 h3 p{ 
-     font-size: 50px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    font-style: normal;
 
-} 
+main {
+  margin: 10px 50px;
+}
 
+main {
+  text-align: center;
+}
+
+main {
+  text-decoration: none;
+}
+
+main {
+  text-transform: uppercase;
+}
+
+main {
+  margin-top: 20px;
+}
+
+main p.h1.h3 {
+  font-size: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-style: normal;
+}
+
+main {
+  text-align: center;
+}
+
+main h1 h3 p {
+  font-size: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-style: normal;
+}
 
 /* estilos de footer*/
-
-footer{
-    list-style-type: georgian;
-    text-align: center;
-    
+footer {
+  list-style-type: georgian;
+  text-align: center;
 }
 
-footer{
-   font: optional;
+footer {
+  font: optional;
 }
 
-
-/* mq de tablet*/ 
-@media screen and (min-width:500px ) {
- main{
+/* mq de tablet*/
+@media screen and (min-width: 500px) {
+  main {
     background-color: rgb(63, 71, 77);
     grid-template-columns: repeat(1, 1fr);
-    grid-row: repeat( 1, 50%) 
-        
-    }
-    
+    grid-row: repeat(1, 50%);
+  }
 }
 /*mq de desktop*/
-@media screen and (min-width:1024px ){
-    body{
-        background-color: rgb(98, 107, 99);
-    }
-
+@media screen and (min-width: 1024px) {
+  body {
+    background-color: rgb(98, 107, 99);
+  }
 }
-
 /*estilos de secion*/
-section{
-    align-content: center;
-    text-align: center;
+section {
+  align-content: center;
+  text-align: center;
 }
 
-  
-
-section div img{
-    width: 30%;
-    text-align: center;
-    justify-content: center;
+section div img {
+  width: 30%;
+  text-align: center;
+  justify-content: center;
 }
 
-
-
+/*# sourceMappingURL=main.css.map */
